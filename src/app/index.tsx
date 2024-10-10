@@ -1,11 +1,11 @@
 import { View, Text } from "react-native";
 import React from "react";
-import DynamicContent from "../components/DynamicContent";
+import CardComponents from "../components/CardComponents";
 
 const index = () => {
   return (
     <View>      
-      <DynamicContent />
+      <CardComponents />
     </View>
   );
 };
