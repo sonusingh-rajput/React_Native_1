@@ -2,13 +2,16 @@ import { StyleSheet } from "react-native";
 
 const st = StyleSheet.create({
     textStyle:{
-        color:"#dadada",
-        fontSize:14,
+        borderRadius:10,
+        padding:10,
+        margin:5,
+        borderColor:"black",
+        borderWidth:1,
+        fontSize:16,
         letterSpacing:0.5,
-        fontFamily:"monospace",
-        backgroundColor:"blue",
-        textAlign:"center"
-    }
+        marginBottom:5
+    },
+    
 })
 
 export default st
