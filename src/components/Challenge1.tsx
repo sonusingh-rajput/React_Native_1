@@ -10,7 +10,7 @@ const Challenge1 = () => {
     }
     return (
         <View style={{display:"flex" , justifyContent:"center", alignItems:"center", padding:20}}>
-            <Text>Challenge 1</Text>
+            <Text style={st.testHeading}>Challenge 1</Text>
             <View>
                 <Text style={st.textStyle}>My Name is {profie.name}.</Text>
                 <Text style={st.textStyle}>I'm {profie.age} year old.</Text>
