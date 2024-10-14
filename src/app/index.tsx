@@ -6,8 +6,6 @@ import ArrayOfObject from "../components/ArrayOfObject";
 const index = () => {
   return (
     <View>      
-      <Text>App</Text>
-        <ListData />
         <ArrayOfObject />
     </View>
   );

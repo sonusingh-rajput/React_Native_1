@@ -38,9 +38,10 @@ const st = StyleSheet.create({
     },
 
     imageStyle:{
-        width:150,
-        height:150,
-        borderRadius:100
+        width:550,
+        height:350,
+        borderRadius:5,
+        marginTop:50
     },
 
     flexStyle:{
@@ -48,7 +49,8 @@ const st = StyleSheet.create({
         flexDirection:"column",
         gap:10,
         alignItems:"center",
-        justifyContent:"center"
+        justifyContent:"center",
+        padding:20
 
 
 }
