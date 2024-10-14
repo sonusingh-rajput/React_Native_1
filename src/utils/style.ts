@@ -13,9 +13,20 @@ const st = StyleSheet.create({
         marginTop:5,
         marginBottom:10,
         borderRadius:5
+    },
+
+    shadow:{
+        backgroundColor:"#fff",
+        borderRadius:5,
+        shadowColor:"green",
+        shadowOpacity:0.5,
+        shadowOffset:{width:5, height:5},
+        shadowRadius:5,
+        elevation:5
     }
     ,
     textStyle:{
+        
         borderRadius:10,
         padding:10,
         margin:5,
