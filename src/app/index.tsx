@@ -1,12 +1,11 @@
 import { View, Text } from "react-native";
 import React from "react";
-import ParrentComponent from "../components/ParrentComponent";
+import Products from "../components/Products";
 
 const index = () => {
   return (
-    <View>      
-       <ParrentComponent />
-      
+    <View style={{padding:20}}>      
+     <Products />      
     </View>
   );
 };
