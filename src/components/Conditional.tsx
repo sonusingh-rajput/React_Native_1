@@ -5,9 +5,7 @@ const ValidPassword = () => <Text>Valid Passwords</Text>
 const InvalidPassword = () => <Text>Invalid Passwords</Text>
 
 const Password = ({isPassword}) => {
-   if(isPassword){
-    return <ValidPassword />
-   } return <InvalidPassword />
+   isPassword ? <ValidPassword /> : <InvalidPassword />
 }
 const Conditional = () => {
   return (
